@@ -2,9 +2,6 @@ body {
     background-color: #ffffe6;
 }
 
-tbody {
-    background-color: #f2f2f2;
-}
 
 div.albumCover {
     background-image: url('img/mouseRat.jpg');
