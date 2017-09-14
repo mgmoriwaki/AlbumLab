@@ -5,3 +5,11 @@ body {
 tbody {
     background-color: #f2f2f2;
 }
+
+div.albumCover {
+    background-image: url('img/mouseRat.jpg');
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: center;
+    height: 250px
+}

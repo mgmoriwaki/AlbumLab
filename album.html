@@ -7,6 +7,7 @@
         <style> 
             caption {font-size: 25px;}
             th {font-size: 20px;}
+            li {font-style: italic;}
         </style>
 
         <!--referencing the style sheet AlbumStyles.css-->
@@ -14,22 +15,29 @@
     </head>
 
     <body>
-        <center><img src="img\mouseRat.jpg" width="20%"/>
-
-        <h1>The Awesome Album</h1>
-        <a href="https://soundcloud.com/thelazypolarbear/sets/the-awesome-album-mouse-rat" target="_blank">Mouse Rat</a>
-        <br>May 19, 2011</p>
-        <hr/>
+        <div class="albumCover">
+        </div>
         
-        <h2>Band Members and Producers</h2></center>
-            <ul>
-                <li>Andy Dwyer - Vocals, Guitar</li>
-                <li>Burly Burlinson - Guitar, Back-Up Vocals</li>
-                <li>Michael Chang - Bass, Back-Up Vocals</li>
-                <li>James Pierson - Drums</li>
-                <li>NBC's Parks and Recreation</li>
-            </ul>
+        <div style="text-align:center;">
+            <h1 style="font-family:verdana;">The Awesome Album</h1>
+            <a href="https://soundcloud.com/thelazypolarbear/sets/the-awesome-album-mouse-rat" target="_blank">Mouse Rat</a>
+            <br>May 19, 2011</p>
+        </div>
 
+        <hr/>
+
+        <div>
+            <h2 style="font-family:verdana; text-align:center;">Band Members and Producers</h2></center>
+                <ul>
+                    <li>Andy Dwyer - Vocals, Guitar</li>
+                    <li>Burly Burlinson - Guitar, Back-Up Vocals</li>
+                    <li>Michael Chang - Bass, Back-Up Vocals</li>
+                    <li>James Pierson - Drums</li>
+                    <li>NBC's Parks and Recreation</li>
+                </ul>
+        </div>
+
+        <div>
             <table width="100%" border="1px">
                 <caption><strong>Tracks</strong></caption>
                 <!--inline styling for Lab Album Site V3-->
@@ -83,6 +91,7 @@
                    
                 </tbody>
             </table>
+        </div> 
     </body>
 
 </html>
