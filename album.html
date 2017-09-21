@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Lab - Album Page v2</title>
-
-        <!--internal styling for Lab Album Site V3-->
+        <title>Lab - Album Page v6</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+       
         <style> 
             caption {font-size: 25px;}
             th {font-size: 20px;}
@@ -14,14 +18,16 @@
             tbody{background-color: #f2f2f2; font-style: italic;}
 
         </style>
+       
 
         <!--referencing the style sheet AlbumStyles.css-->
         <link rel="stylesheet" type="text/css" href="albumStyles.css">
     </head>
 
     <body>
-        <div class="albumCover">
-        </div>
+        
+            <center><img src="img/mouseRat.jpg" height="250px" class="img-circle"></center>
+        
         
         <div style="text-align:center;">
             <h1 style="font-family:verdana;">The Awesome Album</h1>
@@ -42,8 +48,8 @@
                 </ul>
         </div>
 
-        <div>
-            <table width="100%" border="1px">
+        <div class ="table-responsive">
+            <table class="table table-striped"> <!--width="100%" border="1px"-->
                 <caption><strong>Tracks</strong></caption>
                 <!--inline styling for Lab Album Site V3-->
                 <thead style="background-color:#cdcdcd;">
